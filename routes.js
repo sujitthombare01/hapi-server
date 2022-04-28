@@ -1,5 +1,5 @@
 
-const HOME_ROUTES = require("./modules/home/HomeRoutes");
+const HOME_ROUTES = require("./modules/home/homeRoutes");
 const USER_ROUTES = require("./modules/users/userRoutes");
 
 const routes = [
