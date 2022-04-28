@@ -1,0 +1,14 @@
+{
+  "name": "hapi-server",
+  "version": "1.0.0",
+  "description": "intial setup",
+  "main": "server.js",
+  "author": "Sujit Thombare",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2"
+  }
+}
