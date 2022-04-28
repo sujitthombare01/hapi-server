@@ -1,6 +1,6 @@
 
 const { HTTPT_METHODS } = require("../../constants/AppConstact");
-const { helloWorld } = require("./HomeController");
+const { helloWorld } = require("./homeController");
 
 const HOME_ROUTES = [
     {
