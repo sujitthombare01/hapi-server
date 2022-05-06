@@ -1,5 +1,5 @@
 const helloWorld = (request, h) => {
-    return 'Hello World!';
+    return 'Welcome to Hapi Server!';
 }
 
 module.exports = {
