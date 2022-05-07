@@ -5,7 +5,7 @@ const APP_CONSTANTS = {
          PUT: 'PUT',
          DELETE: 'DELETE'
      },
-     CONTEXT_PATH: '/v1/api'
+     CONTEXT_PATH: '/v2/api'
 }
 
 module.exports = APP_CONSTANTS;
