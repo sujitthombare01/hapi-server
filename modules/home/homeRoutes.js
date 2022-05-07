@@ -1,11 +1,11 @@
 
-const { HTTPT_METHODS } = require("../../constants/AppConstact");
+const { HTTPT_METHODS,CONTEXT_PATH } = require("../../constants/AppConstact");
 const { helloWorld } = require("./homeController");
 
 const HOME_ROUTES = [
     {
         method: HTTPT_METHODS.GET,
-        path: '/',
+        path: `${CONTEXT_PATH}/`,
         handler: helloWorld
     }
 ];
